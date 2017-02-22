@@ -1,0 +1,74 @@
+/* Documento CSS*/
+
+
+/* conteiner */
+
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 20px;
+	border: 1px solid #000;
+}
+	@media (min-width: 1170px){
+		.container {
+			max-width: 1170px;
+			padding: 0;
+
+		}
+	}
+
+
+/* linha */
+.row{
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+	.row:before,
+	.row:after{
+		content: "";
+		display: table;
+
+	}
+	.row:after {
+		clear: both;
+	}
+
+
+/* 2 colunas por padrão */
+
+.col {
+	display: inline-block;
+	vertical-align: top;
+	min-height: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 50%;
+	margin-right: -4px;
+	*zoom:1;
+	*display: inline;
+
+}
+	/* três colunas */
+	@media (min-width: 728px){
+		.col-3{
+			width: 33.3333%;
+		}
+	}
+
+
+
+/* PARA TESTE */
+
+.teste {
+	background: #f5d5fe;
+	padding: 5px;
+	text-align: center;
+	margin: 2px 0;
+	color: #fff;
+}
+
+.big {
+	height: 50px;
+}
