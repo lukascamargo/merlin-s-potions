@@ -6,13 +6,32 @@
 	<link rel="stylesheet" type="text/css" href="./css/topo.css">
 	<link rel="stylesheet" type="text/css" href="./css/grid.css">
 	<link rel="stylesheet" type="text/css" href="./class/footer.css">
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 	<div class="header">
 		<div class="topo">
 			<h1 class="site-tittle">Merlin's Potions</h1>
-			<i class="fa fa-bars nav-toggle"></i>
+				<i class="nav-toggle">Menu</i>
+			
+			
+
 			<nav class="main-navigation" role='navigation'>
+				<div class="mobile-top">
+					<div class="close-button"><span class="nav-toggle">Close</span></div>
+					<div class="searchbox-nav">
+						<div class="col-log-6">
+						<div class="input-group">
+							<span class="input-group-addon">
+								<button class="btn btn-default" type="button">Go!</button>
+							</span>
+								<input type="text" class="form-control" placeholder="Search for ...">
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				
 				<ul>
 					<li><a href="index.html">Potions</a></li>
 					<li><a href="#">Ingredients</a></li>
@@ -26,6 +45,7 @@
 					</div>
 				</ul>
 			</nav>
+
 		</div>
 		<div class="menu"></div>
 	</div>
@@ -58,5 +78,9 @@
 	<div class="footer">
 		
 	</div>
+
+	<script src="./js/jquery-2.0.3.min.js"></script>
+	<script src="./js/menu.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
