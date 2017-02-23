@@ -1,0 +1,16 @@
+.footer{
+	
+}
+
+	@media (min-width: 1170px){
+		.footer {
+			height: 150px;
+			width: 100%;
+			background-color: #BDBDBD;
+			border-radius: 3px;
+			max-width: 1170px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 0 20px;
+		}
+	}
