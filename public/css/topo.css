@@ -75,12 +75,16 @@ nav li {
 .main-navigation {
 	position: fixed;
 	left: 0;
+	top: 0;
 	width: 100%;
 	height: 100%;
 	background: #6A1B9A;
 	text-align: center;
 	transform: translateX(-100%);
 	transition: transform 0.6s ease;
+}
+.main-navigation .close-button .nav-toggle{
+	color: #6A1B9A;
 }
 
 .main-navigation.open {
@@ -89,7 +93,6 @@ nav li {
 
 .main-navigation .mobile-top{
 	height: 5%;
-	background: #333;
 	margin-right: auto;
 	margin-left: auto;
 	display: inline-block;
@@ -99,11 +102,7 @@ nav li {
 	width: 30%;
 	margin-left: 5px;
 }
-.main-navigation .mobile-top .searchbox-nav{
-	width: 70%;
-	margin-right: 5px;
-	float: right;
-}
+
 
 .main-navigation .nav-toggle{
 	left: 5%;
@@ -120,6 +119,7 @@ nav li {
 .main-navigation ul a {
 	padding: 10px 20px;
 	display: block;
+	color: #fff;
 }
 
 .main-navigation ul a:hover {
@@ -137,6 +137,7 @@ nav li {
 			max-width: 1170px;
 			width: 100%;
 			height: 65px;
+			top: 55px;
 			background: #6A1B9A;
 			color: #9E9E9E;
 			font-size: 1.5em;
